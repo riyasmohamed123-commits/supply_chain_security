@@ -7,8 +7,6 @@ on:
   pull_request:
     branches:
       - master
-name: Generate SBOM Report with Syft
-
 on:
   workflow_dispatch:     #added
   push:
